@@ -1,0 +1,131 @@
+/* src/CustomerStyles.css */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  body{
+    background-color: #34495E;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    
+  }
+  
+  th, td {
+    text-align: left;
+  }
+  
+  input {
+    margin-top: 5px;
+    background-color: #ECF0F1 ;
+    
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  .App {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #444444;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select, input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  td{
+    border-bottom: 1px solid #D5DBDB;
+
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    background-color: #34495E;
+    color: white; /* Ensures the text is readable against the dark background */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #2E4053; /* A slightly darker shade for the border */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ECF0F1 ;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+  
+    select, input[type="text"], input[type="number"] {
+      padding: 6px;
+      margin-bottom: 10px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  }  
+  body{
+    color: #444444;
+  }
